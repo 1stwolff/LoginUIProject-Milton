@@ -22,9 +22,39 @@ width: 100%;
         font-style: italic;
 
 }
+#box{
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px rgb(104, 47, 3);
+    outline: none;
+    border-radius: 15px;
+
+
+}
 input[type="button"]{
-    color: rgb(1, 33, 6, .9);
-    padding: 10px;
-    box-shadow: 0, 0, 15px, 4px
+    /* color: rgb(1, 33, 6, .9); */
+    padding: 12px 30px;
+    background-color: rgb(51, 35, 15);
+    color: rgba(56, 92, 60, 0.99);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.login h1{
+    font-family: 'CUTE ANIMAL', sans-serif;
+}
+.login a{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+.login a:hover{
+    color: rgb(51, 35, 15);
 }
 
