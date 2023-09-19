@@ -6,16 +6,16 @@ background-repeat: no-repeat;
 display: flex;
 justify-content: center;
 align-items: center;
-height: 100%;
-width: 100%;
+height: 100vh;
+width: 100vw;
 }
 .login {background-color: rgba(56, 92, 60, 0.9);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 20%;
-        width: 20%;
+        height: 50%;
+        width: 40%;
         border-radius: 50px;
         border: 2px solid;
         border-color: rgb(51, 35, 15);
@@ -23,9 +23,10 @@ width: 100%;
 
 }
 #box{
-    padding: 12px;
+    display: flex;
+    
     width: 65%;
-    margin: 15px;
+    
     border: 1px rgb(104, 47, 3);
     outline: none;
     border-radius: 15px;
